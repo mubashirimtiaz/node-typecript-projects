@@ -1,9 +1,10 @@
-const make_shirt = (size = 'large', text = 'I love JavaScript') => {
-  if (size === 'large' || size === 'medium') {
-    return `A ${size} size shirt with the text "I love JavaScript"`;
-  }
-  return `A ${size} size shirt with the text "${text}"`;
+const describe_city = (city = 'Karachi', country = 'Pakistan') => {
+  return `${city} is in ${country}`;
 };
-const order_summary = make_shirt('small', 'I love JS!');
+const result1 = describe_city('Lahore', 'Pakistan');
+const result2 = describe_city(undefined, 'Ukraine');
+const result3 = describe_city('Peshawar');
 
-console.log(order_summary);
+console.log(result1);
+console.log(result2);
+console.log(result3);
