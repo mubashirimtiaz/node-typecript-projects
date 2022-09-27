@@ -30,6 +30,21 @@ const inviteToDinner = () => {
       `Hello ${guest}, Hope you are doing well. I am arranging a dinner on 15th of this month and you are invited .🥳`
     );
   });
+
+  console.log(`Sorry, I can invite only two people. 😔`);
+  console.log(guests);
+
+  while (guests.length > 2) {
+    console.log(`Sorry ${guests.pop()}, I can't invite you to dinner. 😔`);
+  }
+
+  while (guests.length > 0) {
+    console.log(
+      `Hello ${guests.pop()}, Hope you are doing well. I am arranging a dinner on 15th of this month and you are invited .🥳`
+    );
+  }
+
+  console.log(guests);
 };
 
 inviteToDinner();
