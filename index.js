@@ -1,10 +1,15 @@
-const alien_color = 'green';
-// const alien_color = 'yellow';
+const age = 20;
 
-if (alien_color === 'green') {
-  console.log('You earned 5 points!');
-} else if (alien_color === 'yellow') {
-  console.log('You earned 10 points!');
-} else {
-  console.log('You earned 15 points!');
+if (age < 2) {
+  console.log('You are a baby');
+} else if (age >= 2 && age < 4) {
+  console.log('You are a toddler');
+} else if (age >= 4 && age < 13) {
+  console.log('You are a kid');
+} else if (age >= 13 && age < 20) {
+  console.log('You are a teenager');
+} else if (age >= 20 && age < 65) {
+  console.log('You are a young adult');
+} else if (age >= 65) {
+  console.log('You are an elder');
 }
