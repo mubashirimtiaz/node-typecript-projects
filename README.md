@@ -1,13 +1,15 @@
 # node-javascript-projects
 
-Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
 
-let car = 'subaru';
+- Tests for equality and inequality with strings
 
-console.log("Is car == 'subaru'? I predict True.")
+- Tests using the lower case function
 
-console.log(car == 'subaru')
+- Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
 
-- Look closely at your results, and make sure you understand why each line evaluates to True or False.
+- Tests using "and" and "or" operators
 
-- Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+- Test whether an item is in a array
+
+- Test whether an item is not in a array
