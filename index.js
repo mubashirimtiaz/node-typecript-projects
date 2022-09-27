@@ -1,11 +1,11 @@
 //ADDITION
-alert(5 + 3);
+console.log(5 + 3);
 
 //SUBTRACTION
-alert(11 - 3);
+console.log(11 - 3);
 
 //MULTIPLICATION
-alert(2 * 4);
+console.log(2 * 4);
 
 //DIVISION
-alert(16 / 2);
+console.log(16 / 2);
