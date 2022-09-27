@@ -1,9 +1,9 @@
-const describe_city = (city = 'Karachi', country = 'Pakistan') => {
-  return `${city} is in ${country}`;
+const city_country = (city = 'Karachi', country = 'Pakistan') => {
+  return `${city}, ${country}`;
 };
-const result1 = describe_city('Lahore', 'Pakistan');
-const result2 = describe_city(undefined, 'Ukraine');
-const result3 = describe_city('Peshawar');
+const result1 = city_country('Lahore', 'Pakistan');
+const result2 = city_country(undefined, 'Ukraine');
+const result3 = city_country('Peshawar');
 
 console.log(result1);
 console.log(result2);
