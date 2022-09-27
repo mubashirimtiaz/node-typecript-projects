@@ -1,9 +1,16 @@
-const city_country = (city = 'Karachi', country = 'Pakistan') => {
-  return `${city}, ${country}`;
+const make_album = (artist_name, album_title, track = null) => {
+  if (!artist_name || !album_title) {
+    return `Please provide artist name and album title`;
+  }
+  return {
+    artist: artist_name,
+    album: album_title,
+    ...(track && { track }),
+  };
 };
-const result1 = city_country('Lahore', 'Pakistan');
-const result2 = city_country(undefined, 'Ukraine');
-const result3 = city_country('Peshawar');
+const result1 = make_album('Atif', 'Something');
+const result2 = make_album(null, 'Something else');
+const result3 = make_album('Ali', 'Something else', 10);
 
 console.log(result1);
 console.log(result2);
