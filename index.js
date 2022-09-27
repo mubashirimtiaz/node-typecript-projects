@@ -18,7 +18,18 @@ const inviteToDinner = () => {
   });
   if (loop) {
     inviteToDinner();
+    return;
   }
+  console.log(`Yay!!🥳, I have found a bigger dinner table. 🥳`);
+  guests.unshift('Mike');
+  guests.splice(Math.round(guests.length / 2), 0, 'Sunny');
+  guests.push('Raza');
+
+  guests.forEach((guest) => {
+    console.log(
+      `Hello ${guest}, Hope you are doing well. I am arranging a dinner on 15th of this month and you are invited .🥳`
+    );
+  });
 };
 
 inviteToDinner();
