@@ -1,17 +1,17 @@
-const name = 'John Doe';
+const myName: string = 'John Doe';
 
-console.log(name === 'John Doe');
+console.log(myName === 'John Doe');
 
-const favNumber = 45;
+const favNumber: number = 45;
 
 console.log(favNumber === 45);
 
 const num = '5';
 
-console.log(num == 5);
+// console.log(num == 5);
 
 //equality check with type
-console.log(num === 5);
+// console.log(num === 5);
 
 const isCool = true;
 
@@ -25,4 +25,4 @@ const person = { profession: 'developer', age: 25 };
 
 console.log(person.profession === 'developer');
 
-console.log(person.age === '25');
+// console.log(person.age === '25');
