@@ -1,4 +1,8 @@
-const make_album = (artist_name, album_title, track = null) => {
+const make_album = (
+  artist_name: string,
+  album_title: string,
+  track: number | null = null
+) => {
   if (!artist_name || !album_title) {
     return `Please provide artist name and album title`;
   }
@@ -9,9 +13,9 @@ const make_album = (artist_name, album_title, track = null) => {
   };
 };
 const result1 = make_album('Atif', 'Something');
-const result2 = make_album(null, 'Something else');
+// const result2 = make_album(null, 'Something else');
 const result3 = make_album('Ali', 'Something else', 10);
 
 console.log(result1);
-console.log(result2);
+// console.log(result2);
 console.log(result3);
