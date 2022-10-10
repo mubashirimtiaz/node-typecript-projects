@@ -1,13 +1,18 @@
-const number = 55;
-const name = 'John';
-const fruits = ['apple', 'banana', 'orange'];
-const person = { profession: 'developer', age: 25 };
-const isCool = true;
+interface Person {
+  profession: string;
+  age: number;
+}
 
-console.log(55 === '55');
-console.log(55 == '55');
+const number: number = 55;
+const myName: string = 'John';
+const fruits: string[] = ['apple', 'banana', 'orange'];
+const person: Person = { profession: 'developer', age: 25 };
+const isCool: boolean = true;
 
-console.log(name === name.toLowerCase());
+// console.log(55 === '55');
+// console.log(55 == '55');
+
+console.log(myName === myName.toLowerCase());
 
 console.log(undefined == null);
 
@@ -15,11 +20,11 @@ console.log(undefined === null);
 
 console.log(person.profession === 'developer');
 
-console.log(person.age === '25');
+// console.log(person.age === '25');
 
-console.log(
-  person.age > '25' ? 'You are older than 25' : 'You are younger than 25'
-);
+// console.log(
+//   person.age > '25' ? 'You are older than 25' : 'You are younger than 25'
+// );
 
 if (isCool && person.age >= 25) {
   console.log('You are cool');
@@ -36,14 +41,14 @@ if (fruits.length > 2 && fruits[0] === 'apple') {
 }
 
 if (!fruits.length) {
-  return;
+  console.log('empty');
 } else {
   console.log('You have fruits');
 }
 
-if (name.toLowerCase !== 'john') {
-  console.log('You are not John');
-}
+// if (myName.toLowerCase !== 'john') {
+//   console.log('You are not John');
+// }
 
 const newObj = {
   ...person,
