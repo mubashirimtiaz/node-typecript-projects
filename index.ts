@@ -1,4 +1,4 @@
-const favorite_fruits = ['apple', 'mango', 'banana'];
+const favorite_fruits: string[] = ['apple', 'mango', 'banana'];
 
 if (favorite_fruits.includes('grapes')) {
   console.log('I love grapes!');
