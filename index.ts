@@ -1,10 +1,16 @@
-let citiesToVisit = ['london', 'barcelona', 'dubai', 'tokyo', 'russia'];
+let citiesToVisit: string[] = [
+  'london',
+  'barcelona',
+  'dubai',
+  'tokyo',
+  'russia',
+];
 
 console.log(citiesToVisit);
 
 //ordered alphabetically
 
-const sortedCitiesToVisit = citiesToVisit.sort();
+const sortedCitiesToVisit: string[] = citiesToVisit.sort();
 
 console.log(sortedCitiesToVisit);
 
@@ -12,7 +18,7 @@ console.log(citiesToVisit);
 
 //ordered alphabetically in reverse
 
-const reverseSortedCitiesToVisit = citiesToVisit.sort().reverse();
+const reverseSortedCitiesToVisit: string[] = citiesToVisit.sort().reverse();
 
 console.log(reverseSortedCitiesToVisit);
 
