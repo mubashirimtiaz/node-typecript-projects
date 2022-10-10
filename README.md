@@ -1,4 +1,4 @@
-# node-javascript-projects
+# node-typescript-projects
 
 Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
 

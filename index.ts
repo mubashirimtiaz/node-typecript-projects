@@ -1,4 +1,4 @@
-const alien_color = 'green';
+const alien_color: string = 'green';
 // const alien_color = 'yellow';
 
 if (alien_color === 'green') {
