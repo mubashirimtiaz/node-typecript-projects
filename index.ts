@@ -1,12 +1,12 @@
-const host = 'Mubashir';
+const host: string = 'Mubashir';
 
-const guests = ['John', 'Jane', 'Mary'];
+const guests: string[] = ['John', 'Jane', 'Mary'];
 
-const guestWhoCantMakeIt = 'Jane';
+const guestWhoCantMakeIt: string = 'Jane';
 
-const inviteToDinner = () => {
-  let loop = false;
-  guests.forEach((guest) => {
+const inviteToDinner = (): void => {
+  let loop: boolean = false;
+  guests.forEach((guest: string): void | boolean => {
     console.log(
       `Hello ${guest}, Hope you are doing well. I am arranging a dinner on 15th of this month and you are invited .🥳`
     );
