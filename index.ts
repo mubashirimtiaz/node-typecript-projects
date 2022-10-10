@@ -1,6 +1,6 @@
-const animals = ['Cat', 'Dog', 'Rabbit'];
+const animals: string[] = ['Cat', 'Dog', 'Rabbit'];
 
-for (let index = 0; index < animals.length; index++) {
+for (let index: number = 0; index < animals.length; index++) {
   // console.log(animals[index]);
   console.log(`A ${animals[index]} would make a great pet`);
 }
