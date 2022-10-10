@@ -1,10 +1,10 @@
-const current_users = ['john', 'jane', 'joe', 'jim', 'ricky'];
+const current_users: string[] = ['john', 'jane', 'joe', 'jim', 'ricky'];
 
-const new_users = ['JIM', 'aladdin', 'JANE', 'jerry', 'alex'];
+const new_users: string[] = ['JIM', 'aladdin', 'JANE', 'jerry', 'alex'];
 
-const current_user_set = new Set(current_users);
+const current_user_set: Set<string> = new Set(current_users);
 
-new_users.forEach((user) => {
+new_users.forEach((user: string): void => {
   if (current_user_set.has(user?.toLowerCase())) {
     console.log('You will need to enter a new username');
   } else {
