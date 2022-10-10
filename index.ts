@@ -1,7 +1,7 @@
-const alien_color = 'green';
+const alien_color: string = 'green';
 
 if (alien_color !== 'green') {
-  return;
+  console.log('You earned nothing!');
 }
 
 if (alien_color === 'green') {
