@@ -1,3 +1,3 @@
-const fav_number = 53;
+const fav_number: number = 53;
 
 alert(`my favorite number is ${fav_number}`);
