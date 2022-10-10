@@ -1,4 +1,4 @@
-const age = 20;
+const age: number = 20;
 
 if (age < 2) {
   console.log('You are a baby');
